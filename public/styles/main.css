@@ -1,0 +1,53 @@
+h1{
+    color: black;
+    text-align: center;
+  
+}
+
+.mb-3{
+    text-align: center;
+    position: relative;
+    top: 250px;
+}
+
+.btn{
+    position: absolute;
+    left: 925px;
+    top: 650px;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.blogsList{
+    margin-top: 250px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+
+.listOfBlogs{
+    margin-top: 500px;
+    
+}
+
+.form-floating{
+    margin-top: 100px;
+    width: 50%;
+    height: 50%;
+    margin-left: 500px;
+}
+
+.Edit{
+    margin-top: 150px;
+}
+
+.submit-edit{
+    position: absolute;
+display: flexbox;
+}

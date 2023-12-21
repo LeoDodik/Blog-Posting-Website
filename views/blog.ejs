@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOTSTRAP AND CSS HREF LINKS-->
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Edit Blog</title>
+</head>
+<body>
+    <h1 class="Edit">Edit your blog's content👇</h1>
+    <form action="/edit-blog/<%= id %>" method="post"> <!-- Replace "<%= id %>" with the actual ID -->
+        <div class="form-floating">
+            <input type="text" class="form-control" name="blogName" id="blogName" placeholder="Enter Blog Name" required>
+            <label for="blogName">Blog Name</label>
+        </div>
+        <div class="form-floating">
+            <textarea class="form-control" name="blogContent" id="blogContent" placeholder="Enter Blog Content" required></textarea>
+            <label for="blogContent">Blog Content</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg btn submit-edit btn-dark">Submit</button>
+    </form>
+</body>
+</html>
